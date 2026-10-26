@@ -1,0 +1,23 @@
+{
+  "name": "aran-integrated-technologies",
+  "version": "1.0.0",
+  "description": "ARAN Integrated Technologies — Premium Animated Engineering Business Website and REST API",
+  "scripts": {
+    "server:dev": "npm run dev --prefix server",
+    "client:dev": "npm run dev --prefix client",
+    "db:init": "npm run db:init --prefix server",
+    "db:seed": "npm run db:seed --prefix server",
+    "build": "npm run build --prefix server && npm run build --prefix client"
+  },
+  "keywords": [
+    "cctv",
+    "solar",
+    "hydraulics",
+    "engineering",
+    "react",
+    "express",
+    "mysql"
+  ],
+  "author": "ARAN Integrated Technologies",
+  "license": "ISC"
+}
